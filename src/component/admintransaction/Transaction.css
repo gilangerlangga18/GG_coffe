@@ -1,0 +1,61 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #828282;
+  /* text-align: left; */
+  padding: 8px;
+}
+th {
+  background-color: #e5e5e5;
+}
+.button-transaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+
+  /* background-color: #bd0707; */
+}
+.button-transaction .cancel {
+  background-color: #ff0742;
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px #ff0742 solid;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.button-transaction .acc {
+  background-color: #0acf83;
+  width: 90px;
+  border-radius: 5px;
+  border: 1px #0acf83 solid;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.icon1 {
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%; */
+}
+.cancel-icon {
+  color: rgb(247, 4, 4);
+}
+.succes-icon {
+  color: rgb(18, 197, 18);
+}
+.income {
+  color: #061e99;
+}
+.title-tab {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}

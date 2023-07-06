@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Hanami Latte",
+    "img": "../../../images/menuLatte.svg",
+    "price": 27000
+  },
+  {
+    "id": 2,
+    "title": "Ice Coffe Palm Sugar",
+    "img": "../../../images/menuPalm.svg",
+    "price": 30000
+  },
+  {
+    "id": 3,
+    "title": "Ice Coffe Green Tea",
+    "img": "../../../images/menuGreen.svg",
+    "price": 31000
+  },
+  {
+    "id": 4,
+    "title": "Clepon Coffe",
+    "img": "../../../images/meuKlepon.svg",
+    "price": 29000
+  }
+]

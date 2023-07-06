@@ -1,0 +1,53 @@
+.Table {
+  background: #f6dada;
+  color: #bd0707;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerTable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 80%;
+}
+
+.order {
+  width: 80%;
+  color: #bd0707;
+  margin: 50px 184px 20px 0px;
+  font-weight: 900;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+.TitleMenu {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+}
+.imageMenu {
+  width: 350px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .containerTable {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .order {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}

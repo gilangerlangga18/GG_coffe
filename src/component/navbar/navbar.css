@@ -1,0 +1,31 @@
+.containNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px 20px 50px;
+  z-index: 20;
+}
+.button {
+  border: 2px solid #bd0707;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-right: 15px;
+}
+.buttonLogin {
+  background-color: white;
+  color: #bd0707;
+  cursor: pointer;
+}
+.buttonRegister {
+  background-color: #bd0707;
+  color: white;
+  cursor: pointer;
+}
+.logo {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}

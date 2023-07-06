@@ -1,0 +1,31 @@
+.input-topping {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.table-topping {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.input-tabletopping {
+  width: 674px;
+  height: 30px;
+  border: 3px #bd0707 solid;
+  background-color: #e0c8c8;
+  border-radius: 10px;
+}
+.btn-topping {
+  margin-top: 70px;
+  background-color: #bd0707;
+  color: white;
+}
+.image-topping-center {
+  display: flex;
+  width: 50%;
+}
+.add-topping-image {
+  border-radius: 10px;
+  width: 400px;
+}
